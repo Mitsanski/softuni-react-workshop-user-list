@@ -7,16 +7,16 @@ function App() {
 
   return (
     <>
-      <body>
-        {/* Header component  */}
-        <Header />
 
-        {/* Main component   */}
-        <main className="main">
-          <UserList />
+      {/* Header component  */}
+      <Header />
 
-          {/* User details component */}
-          {/* <div className="overlay">
+      {/* Main component   */}
+      <main className="main">
+        <UserList />
+
+        {/* User details component */}
+        {/* <div className="overlay">
             <div className="backdrop"></div>
             <div className="modal">
               <div className="detail-container">
@@ -58,8 +58,8 @@ function App() {
           </div> */}
 
 
-          {/* Create/Edit Form component */}
-          {/* <div className="overlay">
+        {/* Create/Edit Form component */}
+        {/* <div className="overlay">
             <div className="backdrop"></div>
             <div className="modal">
               <div className="user-container">
@@ -162,8 +162,8 @@ function App() {
           </div> */}
 
 
-          {/* Delete user component */}
-          {/* <div className="overlay">
+        {/* Delete user component */}
+        {/* <div className="overlay">
             <div className="backdrop"></div>
             <div className="modal">
               <div className="confirm-container">
@@ -190,10 +190,9 @@ function App() {
             </div>
           </div> */}
 
-        </main>
-        {/* Footer component */}
-        <Footer />
-      </body>
+      </main>
+      {/* Footer component */}
+      <Footer />
     </>
   )
 }
